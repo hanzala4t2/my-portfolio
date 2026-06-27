@@ -239,6 +239,8 @@ footer {
     header {
         flex-direction: column;
         gap: 15px;
+        width: auto;
+        padding: 0 70px;
     }
 
     .logo {
@@ -247,8 +249,8 @@ footer {
 
     nav {
         display: flex;
-        /* justify-content: center; */
-        text-align: center;
+        justify-content: center;
+        /* text-align: center; */
     }
 
     nav a {
@@ -293,7 +295,7 @@ footer {
 
 }
 
-@media(max-width:360px) {
+@media(max-width:480px) {
 
     header {
         flex-direction: row;
